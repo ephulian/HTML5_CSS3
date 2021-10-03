@@ -1,3 +1,23 @@
-head {
-  background: blue;
+p {
+  color: blue;
 }
+
+p {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+* {
+  color: blue;
+}
+
+/* css rule */
+/* selectors */
+/* declaration block */
+/* declaration property: value (semicolon IMPORTANT */
+/* id = #hashtag // MUST be unique */
+/* class = .class // Can group items together */
+/* CSS Specificity */
