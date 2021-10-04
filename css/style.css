@@ -1,17 +1,25 @@
-* {
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Tangerine&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: right; */
 }
 
-.navbar {
-  background: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
+.main {
+  font-family: "Tangerine", cursive;
+  text-align: center;
 }
 
-.banner {
-  background: red;
-  min-height: calc(100vh - 100px);
+.one {
+  text-align: left;
+}
+
+.two {
+  text-align: left;
+  text-indent: 50px;
+}
+
+.subheading {
 }
 
 /* css rule */
@@ -29,3 +37,6 @@
 /* vh = height - Percent of screen height */
 /* vw = width - Percent of screen width */
 /* calc() functions accepts math withing property values */
+
+/* font-family - gives few options and the generic as last option  */
+/* text-align - aligns text - left, right or center */
