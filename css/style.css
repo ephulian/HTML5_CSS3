@@ -1,27 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Tangerine&display=swap");
-
-body {
-  font-family: "Roboto", sans-serif;
-  /* text-align: right; */
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
 }
 
-.main {
-  font-family: "Tangerine", cursive;
-  text-align: center;
+h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 
 .one {
-  text-align: left;
+  line-height: 2.5rem;
 }
 
 .two {
-  text-align: left;
-  text-indent: 50px;
+  letter-spacing: 5px;
 }
 
-.subheading {
+.three {
+  word-spacing: 20px;
 }
-
 /* css rule */
 /* selectors */
 /* declaration block */
@@ -40,3 +38,9 @@ body {
 
 /* font-family - gives few options and the generic as last option  */
 /* text-align - aligns text - left, right or center */
+
+/* text-transforom - capitalize, uppercase, lowercase */
+/* line-height - space between lines */
+/* letter-spacing - space between letters */
+/* word-spacing - space between words */
+/* text decoration - underline, overline */
