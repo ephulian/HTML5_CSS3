@@ -1,17 +1,17 @@
-p {
-  color: blue;
-}
-
-p {
-  color: red;
-}
-
-.red {
-  color: red;
-}
-
 * {
-  color: blue;
+  margin: 0;
+}
+
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
 }
 
 /* css rule */
@@ -21,3 +21,11 @@ p {
 /* id = #hashtag // MUST be unique */
 /* class = .class // Can group items together */
 /* CSS Specificity */
+
+/* Percentages depend on the parent element!! */
+/* Default browser style is 16px = 1em = base value */
+/* em = RELATIVE value dependant on parent */
+/* rem = ROOT empherial unit */
+/* vh = height - Percent of screen height */
+/* vw = width - Percent of screen width */
+/* calc() functions accepts math withing property values */
