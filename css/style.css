@@ -1,25 +1,17 @@
-a {
-  font-size: 40px;
-  text-decoration: none;
-  color: black;
-}
-
 h1 {
-  text-transform: capitalize;
-  text-decoration: underline;
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-.one {
-  line-height: 2.5rem;
+p {
+  background: violet;
+  /* padding: 30px 60px; */
+  padding: 20px 40px 60px 10px;
 }
 
-.two {
-  letter-spacing: 5px;
-}
-
-.three {
-  word-spacing: 20px;
-}
 /* css rule */
 /* selectors */
 /* declaration block */
@@ -44,3 +36,8 @@ h1 {
 /* letter-spacing - space between letters */
 /* word-spacing - space between words */
 /* text decoration - underline, overline */
+
+/* pseudo classes give actions to text - :focus, :visited, :disabled, :active, :hover */
+/* !important - overrides any specificity */
+
+/* padding: takes values in the order- top, right, bottom, left */
