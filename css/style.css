@@ -1,12 +1,26 @@
-.block {
-  background: mediumseagreen;
-  color: whitesmoke;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.inline {
-  background: red;
-  color: white;
-  display: block;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  background: #222;
+  color: orange;
+  padding: 5px;
+  margin: 10px 10px;
 }
 
 /* css rule */
@@ -45,5 +59,6 @@
 /* margin: accepts negative values */
 /* outline: acts as border but has offset value to move in our out */
 
-/* display: block - block elements always start a new line */
-/* display: inline - inline elements only take up the content space */
+/* display: block - block elements always start a new line, Top Bottom margin respected*/
+/* display: inline - inline elements only take up the content space, Top Bottom margins ignored*/
+/* display: inline-block - allows to use margins on inline items */
