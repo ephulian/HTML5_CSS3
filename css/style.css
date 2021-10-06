@@ -1,25 +1,12 @@
-.buttons {
-  margin: 3rem;
+.block {
+  background: mediumseagreen;
+  color: whitesmoke;
 }
 
-a {
-  background: lightseagreen;
-  text-decoration: none;
-  padding: 1.2rem 1.5rem;
-  color: maroon;
-  cursor: pointer;
-  margin: 0 20px;
-}
-
-#one {
-  border: 0.2rem solid #222;
-}
-
-#two {
-  outline-width: 0.2rem;
-  outline-style: solid;
-  outline-color: #222;
-  outline-offset: 10px;
+.inline {
+  background: red;
+  color: white;
+  display: block;
 }
 
 /* css rule */
@@ -57,3 +44,6 @@ a {
 /* border-radius: percent values add roundnes */
 /* margin: accepts negative values */
 /* outline: acts as border but has offset value to move in our out */
+
+/* display: block - block elements always start a new line */
+/* display: inline - inline elements only take up the content space */
