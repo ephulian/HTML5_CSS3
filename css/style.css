@@ -1,15 +1,14 @@
 h1 {
   background: red;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 20px;
+  margin-right: 50px;
+  margin-bottom: 0;
 }
 
 p {
   background: violet;
-  /* padding: 30px 60px; */
-  padding: 20px 40px 60px 10px;
+  padding: 30px;
+  margin-top: 50px 20px;
 }
 
 /* css rule */
@@ -41,3 +40,5 @@ p {
 /* !important - overrides any specificity */
 
 /* padding: takes values in the order- top, right, bottom, left */
+/* margin by default has a value, to stack items set margin to 0 (ie * {margin: 0;} */
+/* margin: works the same as padding for multiple values */
