@@ -1,11 +1,7 @@
 h1 {
   background: red;
   padding: 20px;
-  margin-right: 50px;
-  margin-bottom: 0;
-  border-style: solid;
-  border-width: 10px;
-  border-color: yellowgreen;
+  border: 5px solid black;
 }
 
 p {
@@ -13,9 +9,7 @@ p {
   padding: 30px;
   margin-top: 50px 20px;
   border: 50px solid purple;
-  border-bottom-left-radius: 23px;
-  border-bottom-color: rosybrown;
-  border-bottom-style: double;
+  border-radius: 50%;
 }
 
 /* css rule */
@@ -50,3 +44,5 @@ p {
 /* margin by default has a value, to stack items set margin to 0 (ie * {margin: 0;} */
 /* margin: works the same as padding for multiple values */
 /* border: values are in the order - width style color */
+/* border-radius: percent values add roundnes */
+/* margin: accepts negative values */
