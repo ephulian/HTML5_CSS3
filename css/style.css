@@ -1,33 +1,22 @@
 div {
-  min-height: 100vh;
-  color: green;
-  font-size: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
 }
 
-.big-img {
-  background: url("./Home.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.one {
+  background: linear-gradient(red, green);
 }
 
-.small-img {
-  background: url("./shapes.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+.two {
+  background: linear-gradient(to top, red, green, blue, yellow);
 }
 
-.folder-img {
-  background: url("./colors.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.three {
+  background: linear-gradient(150deg, red, blue);
+}
+
+.four {
 }
 
 /* css rule */
@@ -73,3 +62,5 @@ div {
 /* border-sizing: border-box - encloses the whole element within the set width and heigth*/
 
 /* background image properties */
+
+/* linear-gradient(deg, color, color) or to top, to right */
