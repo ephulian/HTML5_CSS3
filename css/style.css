@@ -1,29 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 div {
-  float: left;
-  height: 200px;
-  width: 33.33%;
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
 }
 
 .one {
-  background: red;
+  background: blue;
+  position: relative;
+  top: 50px;
+  right: 50%;
 }
 
 .two {
   background: green;
 }
 
-.three {
-  background: blue;
-}
-
-h1 {
-  clear: both;
+.special {
+  background: coral;
+  font-size: 20px;
 }
 
 /* css rule */
@@ -72,3 +66,5 @@ h1 {
 
 /* linear-gradient(deg, color, color) or to top, to right */
 /* float and clear */
+
+/* position: relative; allows to use top: left: right: bottom: properties to position element relative to its original position */
