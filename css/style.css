@@ -1,27 +1,35 @@
-.box-1,
-.box-2,
-.box-3 {
-  width: 200px;
-  height: 200px;
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.box-1 {
-  background: orange;
-  color: white;
-  padding: 20px;
-  box-sizing: border-box;
+.big-img {
+  background: url("./Home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.box-2 {
-  background: blue;
-  color: white;
+.small-img {
+  background: url("./shapes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.box-3 {
-  background: purple;
-  color: white;
-  padding: 20px;
+.folder-img {
+  background: url("./colors.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 /* css rule */
 /* selectors */
 /* declaration block */
@@ -63,3 +71,5 @@
 /* display: inline-block - allows to use margins on inline items */
 
 /* border-sizing: border-box - encloses the whole element within the set width and heigth*/
+
+/* background image properties */
