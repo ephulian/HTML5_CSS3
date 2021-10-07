@@ -1,35 +1,44 @@
-button {
-  background: red;
-  font-size: 40px;
-  color: white;
-  border: 20px;
-  border-color: teal;
-  position: fixed;
-  top: 0;
-  right: 0;
+body {
+  background: yellowgreen;
 }
 
-div {
-  border: 3px solid red;
-  background: yellow;
-  margin-top: 40px;
-}
-
-.one {
+.banner {
   background: blue;
 }
 
-.two {
-  background: green;
-  position: relative;
+h1 {
+  color: cornflowerblue;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
-.special {
-  background: coral;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+    border-radius: 40px;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: indigo;
+  }
+  h1 {
+    color: peru;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
 
 /* css rule */
@@ -81,3 +90,5 @@ div {
 
 /* position: relative; allows to use top: left: right: bottom: properties to position element relative to its original position */
 /* position: fixed - fixes an element to the window (not scrollable) */
+
+/* media query only works with the spaces! */
