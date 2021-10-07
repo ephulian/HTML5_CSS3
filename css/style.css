@@ -1,3 +1,14 @@
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  border: 20px;
+  border-color: teal;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 div {
   border: 3px solid red;
   background: yellow;
@@ -6,18 +17,19 @@ div {
 
 .one {
   background: blue;
-  position: relative;
-  top: 50px;
-  right: 50%;
 }
 
 .two {
   background: green;
+  position: relative;
 }
 
 .special {
   background: coral;
   font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 /* css rule */
@@ -68,3 +80,4 @@ div {
 /* float and clear */
 
 /* position: relative; allows to use top: left: right: bottom: properties to position element relative to its original position */
+/* position: fixed - fixes an element to the window (not scrollable) */
