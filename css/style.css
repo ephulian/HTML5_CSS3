@@ -1,22 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
-  width: 150px;
-  height: 150px;
-  margin: 5px;
+  float: left;
+  height: 200px;
+  width: 33.33%;
 }
 
 .one {
-  background: linear-gradient(red, green);
+  background: red;
 }
 
 .two {
-  background: linear-gradient(to top, red, green, blue, yellow);
+  background: green;
 }
 
 .three {
-  background: linear-gradient(150deg, red, blue);
+  background: blue;
 }
 
-.four {
+h1 {
+  clear: both;
 }
 
 /* css rule */
@@ -64,3 +71,4 @@ div {
 /* background image properties */
 
 /* linear-gradient(deg, color, color) or to top, to right */
+/* float and clear */
