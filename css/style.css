@@ -1,32 +1,10 @@
-:root {
-  --primaryColor: #f15025;
-  --secondaryColor: #1313fa;
-  --mainTransition: all 5s linear;
+.fa-user-astronaut {
+  color: tomato;
 }
 
-.heading {
-  color: var(--primaryColor);
-}
-
-.second-heading {
-  color: var(--secondaryColor);
-}
-
-.second-heading:hover {
-  transition: var(--mainTransition);
-  color: var(--primaryColor);
-}
-
-div {
-  --primaryRed: red;
-}
-
-.main-text {
-  color: var(--primaryRed);
-}
-
-.third-heading {
-  color: var(--primaryRed);
+.social-icon {
+  font-size: 5rem;
+  color: blue;
 }
 
 /* css rule */
