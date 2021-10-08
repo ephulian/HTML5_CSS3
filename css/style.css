@@ -1,18 +1,22 @@
-:root {
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
   background: seagreen;
-  font-size: 32px;
+  transform: translateX(50%);
 }
 
-h1 {
-  font-size: 5rem;
+.two {
+  background: slategray;
+  transform: rotateX(95deg);
 }
 
-.absolute {
-  font-size: 25px;
-}
-
-.responsive {
-  font-size: 25px;
+.three {
+  background: skyblue;
+  transform: skew(20deg);
 }
 
 /* css rule */
@@ -76,3 +80,5 @@ h1 {
 /* hover: changes properties on mouse hover */
 
 /* :root changes the rem */
+
+/* transfrom: translate, skew, rotate */
