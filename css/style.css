@@ -6,17 +6,20 @@ div {
 
 .one {
   background: seagreen;
-  transform: translateX(50%);
 }
 
 .two {
   background: slategray;
-  transform: rotateX(95deg);
 }
 
 .three {
   background: skyblue;
-  transform: skew(20deg);
+  transition: all 4s 5s;
+}
+
+.three:hover {
+  border-radius: 50%;
+  background: coral;
 }
 
 /* css rule */
@@ -82,3 +85,5 @@ div {
 /* :root changes the rem */
 
 /* transfrom: translate, skew, rotate */
+/* transition: element duration delay, element duration delay */
+/* transition: all duration delay */
