@@ -1,17 +1,18 @@
-div h1 {
-  color: red;
+:root {
+  background: seagreen;
+  font-size: 32px;
 }
 
-div > h1 {
-  color: blue;
+h1 {
+  font-size: 5rem;
 }
 
-.header h1 {
-  color: green;
+.absolute {
+  font-size: 25px;
 }
 
-.header > h1 {
-  color: purple;
+.responsive {
+  font-size: 25px;
 }
 
 /* css rule */
@@ -72,3 +73,6 @@ div > h1 {
 /* setting an img withing a div, it is possible to set the div to the size and the img to a percentage of the div */
 
 /* child syntax is >, descendant is just space ( ) */
+/* hover: changes properties on mouse hover */
+
+/* :root changes the rem */
