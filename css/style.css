@@ -1,10 +1,14 @@
-.fa-user-astronaut {
-  color: tomato;
+h1 {
+  font-size: 5rem;
+  text-shadow: 0px 50px 1px seagreen;
 }
 
-.social-icon {
-  font-size: 5rem;
-  color: blue;
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 20px 50px 30px slategray;
 }
 
 /* css rule */
@@ -81,3 +85,6 @@
 
 /* :root variables apply to all elements */
 /* local variables can only apply to children */
+
+/* text-shadow: x y blur color */
+/* box-shadow: x y blur color */
