@@ -1,25 +1,30 @@
 div {
-  width: 150px;
-  height: 150px;
-  display: inline-block;
-}
-
-.one {
+  width: 100px;
+  height: 100px;
   background: seagreen;
+  color: white;
+  margin: 15px;
+  transition: all 1s linear;
 }
 
-.two {
-  background: slategray;
+div:hover {
+  transform: translateX(50px);
 }
 
-.three {
-  background: skyblue;
-  transition: all 4s 5s;
+.ease {
+  transition-timing-function: ease;
 }
 
-.three:hover {
-  border-radius: 50%;
-  background: coral;
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
 
 /* css rule */
