@@ -8,7 +8,13 @@ h1 {
   height: 100px;
   background: blue;
   margin: 20px;
-  box-shadow: 20px 50px 30px slategray;
+  transition: all 0.5 ease-out;
+}
+
+.box:hover {
+  box-shadow: 40px 40px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 40px 40px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 40px 40px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* css rule */
@@ -87,4 +93,6 @@ h1 {
 /* local variables can only apply to children */
 
 /* text-shadow: x y blur color */
-/* box-shadow: x y blur color */
+/* box-shadow: x y blur (spread) color */
+
+/* browser prefixes for different browser support */
