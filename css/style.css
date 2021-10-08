@@ -1,32 +1,32 @@
+:root {
+  --primaryColor: #f15025;
+  --secondaryColor: #1313fa;
+  --mainTransition: all 5s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--secondaryColor);
+}
+
+.second-heading:hover {
+  transition: var(--mainTransition);
+  color: var(--primaryColor);
+}
+
 div {
-  width: 200px;
-  height: 100px;
-  color: white;
-  margin: 10px;
+  --primaryRed: red;
 }
 
-.animation {
-  background: seagreen;
-  animation: move 5s 2;
-  animation-fill-mode: forwards;
+.main-text {
+  color: var(--primaryRed);
 }
 
-@keyframes move {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    transform: translateX(200px);
-    opacity: 0.25;
-  }
-  50% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 0.5;
-  }
+.third-heading {
+  color: var(--primaryRed);
 }
 
 /* css rule */
@@ -92,8 +92,14 @@ div {
 /* :root changes the rem */
 
 /* transfrom: translate, skew, rotate */
-/* transition: element duration delay, element duration delay */
+/* transition: element duration delay type, element duration delay type*/
 /* transition: all duration delay */
 
 /* animation: name duration repetition */
 /* animation-fill-mode: last properties after the last loop */
+
+/* --varName:value */
+/* propert:var(--varName) */
+
+/* :root variables apply to all elements */
+/* local variables can only apply to children */
