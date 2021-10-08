@@ -5,39 +5,27 @@ div {
   margin: 10px;
 }
 
-.transition {
-  background: red;
-  transition: all 2s linear;
-}
-
-.transition:hover {
-  background: yellow;
-  transform: translateX(100px);
-}
-
 .animation {
   background: seagreen;
-  /* animation-name: move;
-  animation-duration: 10s;
-  animation-iteration-count: 2; */
-  animation: move 5s infinite;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
 }
 
 @keyframes move {
   0% {
-    transform: translateX(20px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
   }
   50% {
-    transform: translatex(100px);
-    background: purple;
-  }
-  75% {
-    transform: translateX(-200px);
-    background: greenyellow;
+    transform: translateX(-100px);
+    opacity: 1;
   }
   100% {
-    transform: translatex(20px);
-    background: steelblue;
+    transform: translateX(0px);
+    opacity: 0.5;
   }
 }
 
@@ -106,3 +94,6 @@ div {
 /* transfrom: translate, skew, rotate */
 /* transition: element duration delay, element duration delay */
 /* transition: all duration delay */
+
+/* animation: name duration repetition */
+/* animation-fill-mode: last properties after the last loop */
