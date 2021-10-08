@@ -1,0 +1,35 @@
+body {
+  font-size: 35px;
+}
+
+div {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.parent {
+  background: lightblue;
+  padding-bottom: 15px;
+  margin-top: 150px;
+  position: relative;
+  /* left: 35px;
+  top: 140px; */
+  height: 200vh;
+  width: 200vw;
+}
+
+.child-one {
+  background: purple;
+  position: sticky;
+  top: 150px;
+  right: 150px;
+}
+
+.child-two {
+  background: yellow;
+}
+
+.child-three {
+  background: green;
+}
