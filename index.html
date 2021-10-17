@@ -19,6 +19,9 @@
         /* align-content: treats all items as one (aligns all of the content) */
         /* main and cross axis change depending on flex-dir (row/column) */
         /* align-self: targets individual child */
+        /* flex-grow: fills out container (1 is full, 0 is default) */
+        /* different values correspond to ratio (ie. 1:3) */
+
 
         .container {
             display: flex;
@@ -26,8 +29,12 @@
             align-items: center;
         }
 
-        .box-5 {
-            align-self: flex-end;
+        .box-1 {
+            flex-grow: 1;
+        }
+
+        .box-2 {
+            flex-grow: 3;
         }
     </style>
     <!-- rel == relationship -->
@@ -40,9 +47,9 @@
         <!-- children = flex-item -->
         <div class="box box-1">1</div>
         <div class="box box-2">2</div>
-        <div class="box box-3">3</div>
+        <!-- <div class="box box-3">3</div>
         <div class="box box-4">4</div>
-        <div class="box box-5">5</div>
+        <div class="box box-5">5</div> -->
     </div>
     <a href="practice1.html">banner</a>
 </body>
