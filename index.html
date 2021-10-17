@@ -18,17 +18,16 @@
         /* default align is :stretch */
         /* align-content: treats all items as one (aligns all of the content) */
         /* main and cross axis change depending on flex-dir (row/column) */
+        /* align-self: targets individual child */
+
         .container {
             display: flex;
-            flex-direction: column;
-        }
-
-        .box-1 {
-            order: 1;
+            height: 300px;
+            align-items: center;
         }
 
         .box-5 {
-            order: -1;
+            align-self: flex-end;
         }
     </style>
     <!-- rel == relationship -->
