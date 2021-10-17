@@ -24,16 +24,21 @@
         /* flex-shrink: sets the ability of the item to shrink with the container to ON/OFF */
         /* flex-basis sets the minimum box size */
         /* flex shortcuts are flex: grow shrink basis(base value) */
+        /* setting paddings left/right with flexbox is done by subtracting the total desired distance
+        and then splitting it with justify or align */
+        /* gap: row gap and column gaps */
 
         .container {
             display: flex;
             height: 300px;
-            align-content: center;
+            gap: 0 0.5rem;
+            /* align-content: center; */
             flex-wrap: wrap;
+            /* justify-content: space-around; */
         }
 
-        .box-2 {
-            flex-basis: 150px;
+        .box {
+            flex: 0 0 calc(20% - 1rem);
         }
     </style>
     <!-- rel == relationship -->
